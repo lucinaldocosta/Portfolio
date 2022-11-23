@@ -4,7 +4,7 @@
 	padding: 0;
 }
 :root{
-	--maincolor: #18032e;
+	--maincolor: #000a61;
 }
 /* --------------HEADER------------------------------------------------------------------------------------------ */
 .nav_ul_li_a{
@@ -487,7 +487,22 @@ footer{
 		color: var(--maincolor);
 	}
 	.titulo-about{
-		margin-top: 10px;
+		margin-top: 10vh;
 		margin-bottom: 40px;
+	}
+	.grid_container_works{
+		grid-template-columns: repeat(2, 35vw);
+		grid-template-rows: repeat(3, 27vw);
+	}
+	.grid_items_works{
+		width: 25vw;
+		height: 17vw;
+	}
+	.grid_items_div h3{
+		text-align: center;
+		font-size: 2.5vw;
+	}
+	.name{
+		width: 32vw;
 	}
 }
